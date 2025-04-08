@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основы JS</title>
+</head>
+<body>
+    <h1>тут короче консоль нужно смотреть</h1>
+
+    <script>
+        let a, b1, b2, b3, b4, b5, b6;
+        a = prompt("введи сюда 6-значное число")
+        b1 = a % 10
+        b2 = Math.floor(a/10)%10
+        b3 = Math.floor(a/100)%10
+        b4 = Math.floor(a/1000)%10
+        b5 = Math.floor(a/10000)%10
+        b6 = Math.floor(a/100000)%10
+
+        alert(b1+b2+b3+b4+b5+b6)
+    </script>
+</body>
+</html>
